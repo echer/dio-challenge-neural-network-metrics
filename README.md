@@ -1,3 +1,5 @@
+Para este trabalho foi utilizado o dataset iris do kaggle, foi utilizado uma transformacao de dados para converter as 3 classes em apenas 2: setosa e outras, para testes foi utilizado 30% dos dados os outros 70% foram utilizados para treino, o modelo foi utilizado uma regressão logistica, a partir dos dados reais e dos dados preditos foram calculados os verdadeiros positivos (TP), verdadeiros negativos (TN), falsos positivos (FP) e falsos negativos (FN), a partir destes foram calculados os scores de sensibilidade, especificidade, acuracia, precisao e f-score.
+
 Aqui baixamos o dataset do kaggle para a maquina local
 
 
@@ -36,7 +38,7 @@ plt.show()
 
 
     
-![png](output_5_0.png)
+![png](output_6_0.png)
     
 
 
@@ -54,7 +56,7 @@ plt.show()
 
 
     
-![png](output_7_0.png)
+![png](output_8_0.png)
     
 
 
@@ -66,7 +68,7 @@ x=df.drop('species', axis=1)
 y=df['species']
 ```
 
-Aqui treinamos um modelo de regressão logistica separando 20% dos dados para teste
+Aqui treinamos um modelo de regressão logistica separando 30% dos dados para teste
 
 
 ```python
@@ -99,7 +101,7 @@ plt.show()
 
 
     
-![png](output_13_0.png)
+![png](output_14_0.png)
     
 
 
